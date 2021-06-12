@@ -1,11 +1,8 @@
-
-                        SIL Open Font License (OFL-1.1)
-
-    Copyright (c) 2021, Kagurazaka Kagurazaka Shinkai (kkshinkai@outlook.com),
+  Copyright (c) 2021, Kagurazaka Kagurazaka Shinkai (kkshinkai@outlook.com),
   with Reserved Font Name Shinkai Mono.
 
-  SIL Open Font LICENSE
-  Version 1.1 - 26 February 2007
+                              SIL OPEN FONT LICENSE
+                         Version 1.1 - 26 February 2007
 
 PREAMBLE
 
