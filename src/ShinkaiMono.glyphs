@@ -13,7 +13,13 @@ Q,
 ",",
 "@",
 "/comma_at.liga",
-"."
+".",
+"(",
+"/numbersign_bar.liga",
+"/bar_numbersign.liga",
+f,
+"/f_h.liga",
+"/f_l.liga"
 );
 classes = (
 {
@@ -49,22 +55,30 @@ automatic = 1;
 code = "lookupflag IgnoreMarks;
 sub l a m b d a by l_a_m_b_d_a.liga;
 sub equal equal equal by equal_equal_equal.liga;
+sub f f i by f_f_i.liga;
 sub numbersign backslash parenleft by numbersign_backslash_parenleft.liga;
+sub period period period by period_period_period.liga;
 sub semicolon semicolon semicolon by semicolon_semicolon_semicolon.liga;
+sub bar numbersign by bar_numbersign.liga;
+sub comma at by comma_at.liga;
 sub equal equal by equal_equal.liga;
 sub equal greater by equal_greater.liga;
+sub f f by f_f.liga;
 sub f h by f_h.liga;
 sub f i by f_i.liga;
 sub f j by f_j.liga;
 sub f l by f_l.liga;
 sub f m by f_m.liga;
 sub f n by f_n.liga;
+sub f t by f_t.liga;
 sub greater equal by greater_equal.liga;
 sub hyphen greater by hyphen_greater.liga;
 sub less equal by less_equal.liga;
 sub less hyphen by less_hyphen.liga;
 sub numbersign backslash by numbersign_backslash.liga;
+sub numbersign bar by numbersign_bar.liga;
 sub numbersign parenleft by numbersign_parenleft.liga;
+sub quotesingle parenleft by quotesingle_parenleft.liga;
 sub semicolon semicolon by semicolon_semicolon.liga;
 ";
 tag = liga;
@@ -1304,7 +1318,7 @@ unicode = 101;
 {
 category = Letter;
 glyphname = f;
-lastChange = "2021-06-13 16:05:46 +0000";
+lastChange = "2021-06-13 23:48:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -1321,26 +1335,26 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(189,-194,o),
-(290,-118,o),
-(291,-39,cs),
-(298,569,ls),
-(299,616,o),
-(355,665,o),
-(402,665,cs),
-(472,665,l),
-(472,735,l),
-(402,735,ls),
-(323,735,o),
-(223,659,o),
-(222,580,cs),
-(214,-28,ls),
-(213,-75,o),
-(157,-124,o),
-(110,-124,cs),
-(40,-124,l),
-(40,-194,l),
-(110,-194,ls)
+(192,-194,o),
+(294,-118,o),
+(294,-39,cs),
+(294,569,ls),
+(294,616,o),
+(351,665,o),
+(398,665,cs),
+(468,665,l),
+(468,735,l),
+(398,735,ls),
+(319,735,o),
+(218,659,o),
+(218,580,cs),
+(217,-28,ls),
+(217,-75,o),
+(160,-124,o),
+(113,-124,cs),
+(43,-124,l),
+(43,-194,l),
+(113,-194,ls)
 );
 }
 );
@@ -2464,7 +2478,7 @@ width = 1500;
 {
 category = Letter;
 glyphname = f_h.liga;
-lastChange = "2021-06-13 16:07:55 +0000";
+lastChange = "2021-06-13 23:48:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -2479,14 +2493,14 @@ ref = h;
 {
 closed = 1;
 nodes = (
-(472,665,l),
-(528,665,o),
+(468,665,l),
+(524,663,o),
 (575,651,o),
 (626,628,c),
 (642,696,l),
 (585,721,o),
-(533,735,o),
-(472,735,c)
+(529,731,o),
+(468,735,c)
 );
 }
 );
@@ -2847,7 +2861,7 @@ width = 1000;
 },
 {
 glyphname = l_a_m_b_d_a.liga;
-lastChange = "2021-06-13 22:46:59 +0000";
+lastChange = "2021-06-13 23:54:28 +0000";
 layers = (
 {
 layerId = m01;
@@ -2855,58 +2869,62 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(216,790,o),
-(284,757,o),
-(307,700,c),
-(480,256,l),
-(510,162,o),
-(609,91,o),
-(735,87,c),
-(737,0,l),
-(582,0,o),
-(464,59,o),
-(416,170,c),
-(236,625,l),
-(213,691,o),
-(180,690,o),
-(139,680,c),
-(126,771,l)
+(138,603,l),
+(177,612,o),
+(209,613,o),
+(231,554,c),
+(380,194,l),
+(444,52,o),
+(503,-10,o),
+(711,-10,c),
+(709,58,l),
+(531,62,o),
+(490,135,o),
+(437,271,c),
+(298,605,l),
+(276,662,o),
+(212,704,o),
+(121,673,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(71,0,l),
-(326,458,l),
-(373,387,l),
-(178,0,l)
+(375,368,l),
+(327,412,l),
+(107,21,l),
+(169,-10,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(737,0,l),
-(2093,-1,l),
-(2093,83,l),
-(735,87,l)
+(1448,302,l),
+(2804,304,l),
+(2804,374,l),
+(1446,378,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(2061,-2,l),
-(2232,-3,ls),
-(2533,-5,o),
-(2605,235,o),
-(2853,242,cs),
-(2928,244,l),
-(2928,327,l),
-(2853,325,ls),
-(2560,317,o),
-(2478,81,o),
-(2235,82,cs),
-(2060,83,l)
+(697,-9,l),
+(894,-10,ls),
+(1190,-12,o),
+(1137,294,o),
+(1381,301,cs),
+(1456,303,l),
+(1456,378,l),
+(1381,376,ls),
+(1075,368,o),
+(1122,61,o),
+(897,60,cs),
+(696,59,l)
 );
+},
+{
+pos = (2392,-4);
+ref = greater;
 }
 );
 width = 3000;
@@ -4212,7 +4230,7 @@ unicode = 35;
 },
 {
 glyphname = numbersign_parenleft.liga;
-lastChange = "2021-06-13 21:55:26 +0000";
+lastChange = "2021-06-13 23:38:06 +0000";
 layers = (
 {
 layerId = m01;
@@ -4222,25 +4240,63 @@ pos = (32,0);
 ref = numbersign;
 },
 {
-pos = (481,0);
-ref = parenleft.nomal;
-},
-{
 closed = 1;
 nodes = (
-(447,392,l),
-(626,392,l),
-(627,462,l),
-(448,462,l)
+(451,392,l),
+(630,392,l),
+(631,462,l),
+(452,462,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(420,151,l),
-(633,151,l),
-(634,221,l),
-(421,221,l)
+(434,151,l),
+(647,151,l),
+(648,221,l),
+(435,221,l)
+);
+},
+{
+pos = (496,-1);
+ref = parenleft;
+}
+);
+width = 1000;
+}
+);
+},
+{
+glyphname = numbersign_bar.liga;
+lastChange = "2021-06-13 23:42:35 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (56,4);
+ref = numbersign;
+},
+{
+pos = (461,0);
+ref = bar;
+},
+{
+closed = 1;
+nodes = (
+(466,155,l),
+(679,155,l),
+(680,225,l),
+(467,225,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(468,396,l),
+(681,396,l),
+(682,466,l),
+(469,466,l)
 );
 }
 );
@@ -4449,7 +4505,7 @@ unicode = 95;
 },
 {
 glyphname = parenleft;
-lastChange = "2021-06-13 22:50:01 +0000";
+lastChange = "2021-06-13 23:30:36 +0000";
 layers = (
 {
 layerId = m01;
@@ -4457,26 +4513,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(176,676,o),
-(93,556,o),
-(93,340,c),
-(138,340,l),
-(142,506,o),
-(185,622,o),
-(358,699,c),
+(176,671,o),
+(119,549,o),
+(119,340,c),
+(152,340,l),
+(156,499,o),
+(180,630,o),
+(358,717,c),
 (358,756,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(358,-19,l),
-(185,58,o),
-(142,174,o),
-(138,340,c),
-(93,340,l),
-(93,124,o),
-(176,4,o),
+(358,-37,l),
+(181,50,o),
+(156,183,o),
+(152,340,c),
+(119,340,l),
+(119,133,o),
+(176,9,o),
 (358,-76,c)
 );
 }
@@ -4954,6 +5010,44 @@ width = 500;
 }
 );
 unicode = 124;
+},
+{
+glyphname = bar_numbersign.liga;
+lastChange = "2021-06-13 23:43:57 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (44,0);
+ref = bar;
+},
+{
+pos = (425,2);
+ref = numbersign;
+},
+{
+closed = 1;
+nodes = (
+(319,155,l),
+(532,155,l),
+(533,225,l),
+(320,225,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(321,396,l),
+(534,396,l),
+(535,466,l),
+(322,466,l)
+);
+}
+);
+width = 1000;
+}
+);
 },
 {
 glyphname = equal_equal.liga;
@@ -6433,5 +6527,5 @@ m01 = {
 };
 };
 versionMajor = 0;
-versionMinor = 3;
+versionMinor = 4;
 }
