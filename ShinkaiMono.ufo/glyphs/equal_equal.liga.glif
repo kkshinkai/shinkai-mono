@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_equal.liga" format="2">
+	<advance width="1000"/>
+	<outline>
+		<component base="equal" xScale="2.1994" xOffset="-50"/>
+	</outline>
+</glyph>
