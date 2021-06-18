@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilon" format="2">
+	<advance width="500"/>
+	<unicode hex="03A5"/>
+	<outline>
+		<contour>
+			<point x="188" y="0" type="line"/>
+			<point x="312" y="0" type="line"/>
+			<point x="312" y="70" type="line"/>
+			<point x="284.734" y="70" type="line"/>
+			<point x="287" y="286" type="line"/>
+			<point x="426.594" y="630" type="line"/>
+			<point x="469" y="630" type="line"/>
+			<point x="470" y="700" type="line"/>
+			<point x="323" y="700" type="line"/>
+			<point x="324" y="630" type="line"/>
+			<point x="349.646" y="630" type="line"/>
+			<point x="250" y="384" type="line"/>
+			<point x="150.354" y="630" type="line"/>
+			<point x="176" y="630" type="line"/>
+			<point x="177" y="700" type="line"/>
+			<point x="30" y="700" type="line"/>
+			<point x="31" y="630" type="line"/>
+			<point x="73.406" y="630" type="line"/>
+			<point x="213" y="286" type="line"/>
+			<point x="213" y="70" type="line"/>
+			<point x="188" y="70" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-06-18 06:09:18 +0000</string>
+		</dict>
+	</lib>
+</glyph>

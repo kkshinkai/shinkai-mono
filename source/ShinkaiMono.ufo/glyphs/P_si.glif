@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Psi" format="2">
+	<advance width="500"/>
+	<unicode hex="03A8"/>
+	<outline>
+		<contour>
+			<point x="285" y="637" type="line"/>
+			<point x="215" y="637" type="line"/>
+			<point x="215" y="69" type="line"/>
+			<point x="105" y="69" type="line"/>
+			<point x="105" y="0" type="line"/>
+			<point x="395" y="-1" type="line"/>
+			<point x="395" y="69" type="line"/>
+			<point x="285" y="69" type="line"/>
+		</contour>
+		<contour>
+			<point x="448" y="631" type="curve"/>
+			<point x="378" y="631" type="line"/>
+			<point x="378" y="413"/>
+			<point x="361" y="262"/>
+			<point x="250" y="262" type="curve" smooth="yes"/>
+			<point x="129" y="262"/>
+			<point x="122" y="412"/>
+			<point x="122" y="632" type="curve"/>
+			<point x="52" y="632" type="line"/>
+			<point x="52" y="400"/>
+			<point x="64" y="182"/>
+			<point x="250" y="182" type="curve" smooth="yes"/>
+			<point x="428" y="182"/>
+			<point x="448" y="400"/>
+		</contour>
+		<contour>
+			<point x="190" y="700" type="line"/>
+			<point x="190" y="630" type="line"/>
+			<point x="310" y="630" type="line"/>
+			<point x="310" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="350" y="700" type="line"/>
+			<point x="350" y="630" type="line"/>
+			<point x="470" y="630" type="line"/>
+			<point x="470" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="30" y="700" type="line"/>
+			<point x="30" y="630" type="line"/>
+			<point x="150" y="630" type="line"/>
+			<point x="150" y="700" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-06-18 06:17:03 +0000</string>
+		</dict>
+	</lib>
+</glyph>
