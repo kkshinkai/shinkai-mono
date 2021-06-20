@@ -9,20 +9,12 @@
 	</dict>
 	<key>com.schriftgestaltung.DisplayStrings</key>
 	<array>
-		<string>Π</string>
-		<string>π</string>
-		<string>Φ</string>
-		<string>φ</string>
-		<string>p</string>
-		<string>ρ</string>
-		<string>w</string>
-		<string>ω</string>
-		<string>t</string>
-		<string>τ</string>
-		<string>o</string>
+		<string>η</string>
+		<string>ζ</string>
+		<string>ξ</string>
+		<string>ς</string>
 		<string>σ</string>
-		<string>u</string>
-		<string>υ</string>
+		<string>c</string>
 	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<false/>

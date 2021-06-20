@@ -6,7 +6,7 @@
 		<contour>
 			<point x="133" y="284" type="curve" smooth="yes"/>
 			<point x="133" y="392"/>
-			<point x="261" y="537"/>
+			<point x="261" y="533"/>
 			<point x="409" y="615" type="curve"/>
 			<point x="390" y="706" type="line"/>
 			<point x="80" y="706" type="line"/>
@@ -24,14 +24,14 @@
 			<point x="384" y="21"/>
 			<point x="374" y="-8" type="curve" smooth="yes"/>
 			<point x="356" y="-60"/>
-			<point x="212" y="-75"/>
-			<point x="119" y="-72" type="curve"/>
+			<point x="212" y="-72"/>
+			<point x="119" y="-67" type="curve"/>
 			<point x="114" y="-135" type="line"/>
 			<point x="215" y="-141"/>
-			<point x="416" y="-135"/>
-			<point x="446" y="-13" type="curve" smooth="yes"/>
-			<point x="462" y="52"/>
-			<point x="410" y="122"/>
+			<point x="415" y="-129"/>
+			<point x="446" y="-21" type="curve" smooth="yes"/>
+			<point x="468" y="57"/>
+			<point x="416" y="122"/>
 			<point x="261" y="122" type="curve" smooth="yes"/>
 			<point x="154" y="122"/>
 			<point x="133" y="188"/>
@@ -40,7 +40,7 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-06-18 13:41:08 +0000</string>
+			<string>2021-06-20 03:37:48 +0000</string>
 		</dict>
 	</lib>
 </glyph>
