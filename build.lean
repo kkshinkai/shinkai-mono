@@ -1,7 +1,7 @@
 open System
 
 constant svgs: List String :=
-  ["void", "ascii_regular"]
+  ["void", "ascii_regular", "greek_regular"]
 
 def main: IO Unit := do
   for svg in svgs do
