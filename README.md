@@ -1,6 +1,8 @@
 Shinkai Mono
 ============
 
+![](https://img.shields.io/badge/license-SIL-green) &nbsp; ![](https://img.shields.io/badge/release-v0.005-blueviolet)
+
 A monospaced font, currently under development.
 
 Variants
