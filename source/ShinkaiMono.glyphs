@@ -25,6 +25,12 @@ value = "http://scripts.sil.org/OFL";
 );
 date = "2021-06-11 15:09:22 +0000";
 familyName = "Shinkai Mono";
+featurePrefixes = (
+{
+code = "";
+name = LanguageSystem;
+}
+);
 fontMaster = (
 {
 id = m01;
