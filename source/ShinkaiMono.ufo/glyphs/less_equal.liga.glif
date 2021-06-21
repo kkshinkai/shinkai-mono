@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="less_equal.liga" format="2">
-	<advance width="1000"/>
-	<outline>
-		<component base="greater_equal.liga" xScale="-1" xOffset="999"/>
-	</outline>
-</glyph>
