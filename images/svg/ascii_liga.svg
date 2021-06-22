@@ -4,19 +4,19 @@
                  src: url('./../../build/ShinkaiMono-Regular.ttf') format('truetype') }
     text { font-family: "Shinkai Mono";
            font-size: 150px;
-           font-feature-settings: "liga" 0 }
+           font-feature-settings: "liga" 1, "calt" 1 }
   </style>
   <rect x="0" y="0" width="100%" height="100%" fill="white" />
   <text x="50%" y="150" dominant-baseline="middle" text-anchor="middle">
-    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    ffflfifjfnfmfrtttitjtntmtr
   </text>
   <text x="50%" y="330" dominant-baseline="middle" text-anchor="middle">
-    abcdefghijklmnopqrstuvwxyz
+    Th
   </text>
   <text x="50%" y="510" dominant-baseline="middle" text-anchor="middle">
-    0123456789!"#$%&amp;'()*+,-./:
+
   </text>
   <text x="50%" y="690" dominant-baseline="middle" text-anchor="middle">
-    ;&lt;>=>?[]\^_{}|~`
+
   </text>
 </svg>
