@@ -20,7 +20,7 @@ Variants
   </tr>
   <tr>
     <td><img src="./images/png/ascii_regular.png"/></td>
-    <td><img src="./images/png/void.png"/></td>
+    <td><img src="./images/png/ascii_liga.png"/></td>
   </tr>
   <tr>
     <td colspan="2"><strong>Greek</strong></td>
