@@ -1,2 +1,1 @@
-tests/* linguist-vendored
-build/* linguist-vendored linguist-generated=true
+fonts/* linguist-vendored linguist-generated=true
