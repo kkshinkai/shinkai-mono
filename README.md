@@ -1,5 +1,3 @@
-![](./images/header.png)
-
 Shinkai Mono
 ============
 
